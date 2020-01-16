@@ -1,0 +1,15 @@
+{
+  "name": "primenumbers",
+  "version": "1.0.0",
+  "description": "application that calculates and displays multiplication table of first 10 prime numbers",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "start": "node app.js"
+  },
+  "author": "Tunde ayodele Olumide",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^7.0.0"
+  }
+}

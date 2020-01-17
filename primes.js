@@ -1,4 +1,6 @@
-// This function will return the first n inputs
+// ========================================
+//This function will return the first n inputs
+//==========================================
 exports.getPrimes = x => {
   x = x || 10;
   var primes = [];
@@ -20,7 +22,9 @@ exports.getPrimes = x => {
   return primes;
 };
 
+//=======================================
 // this function test if number is a prime
+//=========================================
 exports.isPrime = number => {
   if (typeof number !== 'number' || number % 1 !== 0) {
     throw new Error('Number should be an integer');
